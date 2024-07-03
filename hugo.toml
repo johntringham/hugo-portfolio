@@ -31,8 +31,13 @@ theme = "adritian"
   weight = 2
 
   [[menu.header]]
-  name = "Portfolio"
+  name = "Projects"
   URL = "#portfolio"
+  weight = 3
+
+  [[menu.header]]
+  name = "Blog"
+  URL = "https://blog.seedganggames.com"
   weight = 3
 
   [[menu.header]]
@@ -59,7 +64,7 @@ theme = "adritian"
 
 [params]
 
-  sections = ["showcase", "about", "education", "experience", "client-and-work", "testimonial", "contact", "newsletter"]
+  sections = ["showcase", "about", "education", "experience", "client-and-work", "smaller-projects", "testimonial", "contact", "newsletter"]
 
   homepageExperienceCount = 6
 
@@ -75,7 +80,7 @@ theme = "adritian"
     text2 = "Tringham"
 
   [params.footer]
-      copyright = "© Adritian. Free Hugo theme by Adrián Moreno Peña."
+      copyright = "© John Tringham 2024. Website powered by Hugo and Github pages."
       [params.footer.radity_logo]
         x = "img/general/design-and-code-radity.png"
         _2x = "img/general/design-and-code-radity@2x.png"
