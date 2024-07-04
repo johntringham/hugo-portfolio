@@ -1,6 +1,6 @@
 baseURL = "https://www.adrianmoreno.info"
 languageCode = "en-us"
-theme = "adritian"
+theme = "custom"
 
 # Plugins
 [params.plugins]
