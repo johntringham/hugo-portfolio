@@ -1,6 +1,7 @@
 baseURL = "https://john.seedganggames.com"
 languageCode = "en-uk"
 theme = "custom"
+cleanDestinationDir = true
 
 # Plugins
 [params.plugins]
