@@ -186,7 +186,7 @@ client_and_work:
         URL: "mailto:help@seedganggames.com?subject=Request Thumb Blocker beta access"
       image:
         x: "images/works/thumbblocker.png"
-        _2x: "images/works/robo-advisor@2x.jpg"
+        _2x: "images/works/thumbblocker.png"
       is_even: false
 
     - title: "MuuRadio"
