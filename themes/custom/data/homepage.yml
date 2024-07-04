@@ -299,24 +299,24 @@ testimonial:
   enable: false
   title: "Other projects"
   items:
-    - name: "Daniel Jordan"
-      content: "I've illustrated and drawn comics since being a teenager, normally using ink and watercolour paints. During university, I was a regular editorial cartoonist for the student newspaper."
-      image:
-        x: "img/art/bort.png"
-        _2x: "img/art/bort.png"
+    # - name: "Daniel Jordan"
+    #   content: "I've illustrated and drawn comics since being a teenager, normally using ink and watercolour paints. During university, I was a regular editorial cartoonist for the student newspaper."
+    #   image:
+    #     x: "img/art/bort.png"
+    #     _2x: "img/art/bort.png"
     
-    - name: "Jonathan Peters"
-      content: ""
-      image:
-        x: "images/testimonials/jonathan-peters.jpg"
-        _2x: "images/testimonials/jonathan-peters@2x.jpg"
+    # - name: "Jonathan Peters"
+    #   content: ""
+    #   image:
+    #     x: "images/testimonials/jonathan-peters.jpg"
+    #     _2x: "images/testimonials/jonathan-peters@2x.jpg"
 
-    - name: "Antonio Willis"
-      position: "Cyberse, CEO"
-      content: "In this digital generation where information can be easily obtained within seconds, business cards still have retained their importance in the achievement of increased business exposure and business sales. If your business already has a bunch of printed cards distributed to a number of potential customers and yet."
-      image:
-        x: "images/testimonials/antonio-willis.jpg"
-        _2x: "images/testimonials/antonio-willis@2x.jpg"
+    # - name: "Antonio Willis"
+    #   position: "Cyberse, CEO"
+    #   content: "In this digital generation where information can be easily obtained within seconds, business cards still have retained their importance in the achievement of increased business exposure and business sales. If your business already has a bunch of printed cards distributed to a number of potential customers and yet."
+    #   image:
+    #     x: "images/testimonials/antonio-willis.jpg"
+    #     _2x: "images/testimonials/antonio-willis@2x.jpg"
 
 # contact
 contact:
