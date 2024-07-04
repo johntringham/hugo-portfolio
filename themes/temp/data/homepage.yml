@@ -1,0 +1,345 @@
+# page title
+head:
+  title: "Demo site for Adritian - a high performance hugo theme by Adrián Moreno"
+  description: "This hugo theme (Adritian) is based on Boostrap and has features that make it suitable for a personal site, a portfolio or other kind of Single Page Applications."
+# showcase
+showcase:
+  enable: true
+  title: "Hi!"
+  subtitle: "I'm John"
+  description: >
+    I'm a multidiscipline software developer based in South London, UK.<br/>I've made desktop applications, mobile apps, websites, games, and graphics programs.
+  image:
+    x: "images/showcase/me.jpg"
+    _2x: "images/showcase/me.jpg"
+  imageMobile:
+    x: "images/showcase/me.jpg"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact"
+    URL: "https://www.adrianmoreno.info/"
+
+  socialLinks:
+    # - icon: "blog"
+    #   URL: "https://www.linkedin.com/in/adrianmoreno/"
+
+    # - icon: "github"
+    #   URL: "https://github.com/zetxek"
+
+    # - icon: "twitter"
+    #   URL: "https://twitter.com/zetxek"
+
+    # - icon: "dribbble"
+    #   URL: "#"
+
+    # - icon: "behance"
+    #   URL: "#"
+
+    # - icon: "youtube"
+    #   URL: "#"
+
+    # - icon: "instagram"
+    #   URL: "https://www.instagram.com/zetxek/"
+
+    # - icon: "facebook"
+    #   URL: "https://www.facebook.com/zetxek/"
+
+    # - icon: "codepen"
+    #   URL: "#"
+
+    # - icon: "yelp"
+    #   URL: "https://www.yelp.com/"
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content: >
+    <p class="lead">
+      I first learned how to program at around age 10, when I first got introduced to Flash and Actionscript. I've now been programming for 20 years, and have worked in a wide range of areas.
+      <br/>
+      I worked as a lead developer at <a href="https://acturis.com">Acturis</a> for a long while, where I developed C# software using WPF and .NET.<br/>
+      I started working as a solo developer in 2021, and have produced web apps, games, and mobile apps.<br/>
+    </p>
+  button:
+    icon: "icon-smile-fill"
+    btnText: "About Me"
+    URL: "https://www.linkedin.com/in/adrianmoreno/"
+  image:
+    x: "images/showcase/trees.png"
+    _2x: "images/showcase/trees.png"
+
+# education
+education:
+  enable: false
+  title: "Skills"
+  items:
+    - university: "C# and .NET"
+      year: "2013-Current"
+      degree: "WPF, "
+    - university: "C# and .NET"
+      year: "2013-Current"
+      degree: "WPF, "
+    - university: "C# and .NET"
+      year: "2013-Current"
+      degree: "WPF, "
+
+# experience
+experience:
+  enable: false
+  title: "Experience"
+  description: >
+    Over 15+ years of experience working with companies from all over the world. I design & develop digital products to help businesses and improve people's lives.
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/adrianmoreno/"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download My Resume"
+    URL: "#"
+
+  items:
+    - title: "Sr. Title"
+      company: "Serious Business, Inc"
+      duration: "Feb 2011 - Sep 2019"
+
+    - title: "Sr. Title"
+      company: "Fancy Company, Inc"
+      duration: "Apr 2010 - Jan 2011"
+
+    - title: "Jr. Title"
+      company: "Company, Inc"
+      duration: "Jun 2009 - Mar 2010"
+
+# Client & Work
+client_and_work:
+  title: "Projects"
+  enable: true
+
+  clients:
+    - text : "WPF"
+    - text : "C#"
+    - text : ".NET"
+    - text : "Unity"
+    - text : "Typescript"
+    - text : "Javascript"
+    - text : "HTML"
+    - text : "CSS"
+    - text : "Kotlin"
+    - text : "Xamarin Forms / .NET MAUI"
+
+
+    - logo:
+        x: "images/clients/earth-2.png"
+        _2x: "images/clients/earth-2@2x.png"
+      alt: "Earth 2.0"
+
+    - logo:
+        x: "images/clients/goldline.png"
+        _2x: "images/clients/goldline@2x.png"
+      alt: "Goldline"
+
+    - logo:
+        x: "images/clients/kanba.png"
+        _2x: "images/clients/kanba@2x.png"
+      alt: "Kanba"
+
+    - logo:
+        x: "images/clients/zoo-tv.png"
+        _2x: "images/clients/zoo-tv@2x.png"
+      alt: "Zoo"
+
+    - logo:
+        x: "images/clients/ztos.png"
+        _2x: "images/clients/ztos@2x.png"
+      alt: "Ztos"
+
+  works:
+    - title: "Flowgrammer"
+      description: >
+        Flowgrammer (name likely to change) is a prototype visual scripting language aimed at teaching children and adults programming concepts.<br/>
+
+        Drag and drop scripting "blocks" and connect them together to create small procedures and methods.<br/>
+        
+        It's connected to a small 2D physics engine (using matter.js), which users can control via the scripts they build.
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Flowgrammer"
+        URL: "https://flowgram.pages.dev/"
+      button2:
+        icon: "icon-arrow-right"
+        btnText: "Blog post"
+        URL: "https://blog.seedganggames.com/flowgrammer/"
+      video: "videos/fg_fast.mp4"
+      is_even: true
+
+    - title: "Thumb Blocker"
+      description: >
+       Thumb Blocker Launcher is an Android home screen launcher app that aims to stop phone addiction.<br/>
+       Small tasks and "delayers" are set by the user in order to make opening addictive apps more difficult and more of a chore.<br> 
+       Thumb Blocker Launcher is developed using Kotlin and Android Studio. It is currently in beta on Google Play.
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "images/works/thumbblocker.png"
+        _2x: "images/works/robo-advisor@2x.jpg"
+      is_even: false
+
+    - title: "MuuRadio"
+      description: >
+        MuuRadio.com is a peer-to-peer music-based chatroom web-app. Users set up little chat rooms which they can upload their MP3 files to, and listen to music together at the same time.
+        <br/>
+        Made using typescript, webtorrent, peer.js, bootstrap, and cloudflare workers.
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Muuradio"
+        URL: "https://muuradio.com"
+      button2:
+        icon: "icon-arrow-right"
+        btnText: "Blog post"
+        URL: "https://blog.seedganggames.com/muuradio/"
+      image:
+        x: "img/kb4.png"
+        _2x: "images/works/radity-finance@2x.jpg"
+      is_even: true
+
+    - title: "Evaze"
+      description: >
+        Evaze is an abstract 2D Arcade-Puzzle game, made in Unity.<br/>
+        In Evaze, the player navigates a malleable labrynth - at any point a tile can be slid in and push all the other tiles accross, in order to create new routes to orbs and to block off enemies.<br/>
+        Evaze is a casual puzzle-action mobile game. It can be downloaded for both Android and iOS.
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Muuradio"
+        URL: "https://muuradio.com"
+      button2:
+        icon: "icon-arrow-right"
+        btnText: "Blog post"
+        URL: "https://blog.seedganggames.com/muuradio/"
+      youtube: https://www.youtube.com/embed/V_kMEnoiYA4?si=5GXKDDP_mMTsNwcs
+      is_even: false
+
+    - title: "Dash Foss"
+      description: >
+        I made a lightweight third party tumblr dashboard android application called "Dash Foss".
+        <br/>
+        It's written in C# using Xamarin, and uses the official tumblr API to show posts, videos, comments, etc. You can view your timeline, other people's blogs and posts you've liked.<br>
+        It does not show ads, recommended posts, blazed posts, tipping, or other negative feaures built into the first party app.
+      button:
+        icon: "icon-arrow-right"
+        btnText: "More info"
+        URL: "#"
+      video: "videos/df.mp4"
+      is_even: true
+
+
+
+
+
+smaller_projects:
+  title: "Other projects"
+  enable: true
+
+  clients:
+    - text : "Some smaller projects I've worked on in my spare time"
+
+  works:
+    - title: "Roamer"
+      description: >
+        Roamer is a game worked on solo during the coronavirus pandemic. It is a moody and atmospheric 3D stealth/puzzle/adventure game.<br/>
+        I worked on all areas, including all programming, designing, 3D modelling, texturing, rigging, procedural animation, enemy AI, effects, audio generation, and writing. It was developed in Unity, using URP, Shadergraph and Blender. It is currently shelved while I work on other projects.
+      video: "videos/roamer.mp4"
+      is_even: true
+
+    - title: "Two Player"
+      description: >
+        Two Player is a short single player video game about the social complexities of playing couch co-op video games. It includes multiple endings and
+        branching dialog, which is controlled based on the choices you make in a in-game first-person-shooter, and shows how these choices affect the real life social situation you are in.
+        <br/>
+        It was named in <i>Game Curators'</i> <a href="https://game-curator.com/miscellaneous/goty-game-jam-edition/goty-2020-game-jam-edition/">Game Of The Year 2020: Game Jam Edition list</a>, and was also featured in <a href="https://www.alphabetagamer.com/two-player-game-jam-build/"><i>Alpha Beta Gamer</i></a>
+        and <a href="https://warpdoor.com/2021/01/11/two-player/"><i>Warp Door</i></a>. <br><br>
+        <br/><i>"Two Player is a short, but sweet and oddly emotional little game that helps recreate fond (and some not-so-fond) memories of playing a bit of co-op with a friend. It’s a fun little game with charming dialogue and multiple endings to discover"</i> - Calum Fraser of Alpha Beta Gamer
+        <br/>
+        <i>Two Player</i> was created as part of the 7DFPS Game Jam. It was made solo, using Unity and <a href="https://fernandoramallo.itch.io/doodle-studio-95">Doodle Studio 95</a>.
+
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      video: "videos/two_player.mp4"
+      is_even: false
+
+    - title: "Experimental rendering"
+      description: >
+        A pass-time I enjoy is to experiment with new rendering techniques, usually with Unity's shadergraph or via HLSL/GLSL shaders.
+        <br/>
+        These experiments have included grey-scott reaction diffusion techniques, "slime mould" rendering systems, and other novel methods.
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Muuradio"
+        URL: "https://muuradio.com"
+      button2:
+        icon: "icon-arrow-right"
+        btnText: "Blog post"
+        URL: "https://blog.seedganggames.com/muuradio/"
+      video: "videos/trees.mp4"
+      is_even: true
+
+
+# testimonial
+testimonial:
+  enable: true
+  title: "Other projects"
+  items:
+    - name: "Daniel Jordan"
+      content: "I've illustrated and drawn comics since being a teenager, normally using ink and watercolour paints. During university, I was a regular editorial cartoonist for the student newspaper."
+      image:
+        x: "img/art/bort.png"
+        _2x: "img/art/bort.png"
+    
+    - name: "Jonathan Peters"
+      content: ""
+      image:
+        x: "images/testimonials/jonathan-peters.jpg"
+        _2x: "images/testimonials/jonathan-peters@2x.jpg"
+
+    - name: "Antonio Willis"
+      position: "Cyberse, CEO"
+      content: "In this digital generation where information can be easily obtained within seconds, business cards still have retained their importance in the achievement of increased business exposure and business sales. If your business already has a bunch of printed cards distributed to a number of potential customers and yet."
+      image:
+        x: "images/testimonials/antonio-willis.jpg"
+        _2x: "images/testimonials/antonio-willis@2x.jpg"
+
+# contact
+contact:
+  enable: false
+  title: "Contact"
+  form:
+    action: "#"
+    full_name: "Full Name"
+    email: "Email Address"
+    message: "Type Your Message Here"
+  phone:
+    title: "Phone Number"
+    number: "+555 (11) 123 44 55"
+  email:
+    title: "Email"
+    email: '<a href="mailto:mail@example.com">mail@example.com</a>'
+  address:
+    title: "Address"
+    address: "Exact street/neighborhood (you can omit this)<br />Postcode, City"
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+
+# newsletter
+newsletter:
+  enable: false
+  title: "Newsletter subscription"
+  success_message: "Successfully subscribed"
+  error_message: "Error while subscribing."
+  note: "We'll never share your email with anyone else."
