@@ -292,7 +292,7 @@ smaller_projects:
 
 # testimonial
 testimonial:
-  enable: true
+  enable: false
   title: "Other projects"
   items:
     - name: "Daniel Jordan"
@@ -316,25 +316,37 @@ testimonial:
 
 # contact
 contact:
-  enable: false
+  enable: true
   title: "Contact"
-  form:
-    action: "#"
-    full_name: "Full Name"
-    email: "Email Address"
-    message: "Type Your Message Here"
-  phone:
-    title: "Phone Number"
-    number: "+555 (11) 123 44 55"
-  email:
-    title: "Email"
-    email: '<a href="mailto:mail@example.com">mail@example.com</a>'
-  address:
-    title: "Address"
-    address: "Exact street/neighborhood (you can omit this)<br />Postcode, City"
-  button:
-    icon: "icon-mail-fill"
-    btnText: "Send Message"
+  items:
+    - item : 
+      title: "email"
+      text: "john at seedganggames dot com"
+      link: "mailto:&#106;&#111;&#104;&#110;&#064;&#115;&#101;&#101;&#100;&#103;&#097;&#110;&#103;&#103;&#097;&#109;&#101;&#115;&#046;&#099;&#111;&#109;"
+    - item : 
+      title: "blog"
+      text: "blog.seedganggames.com"
+      link: "https://blog.seedganggames.com"
+    - item : 
+      title: "mastodon"
+      text: "@zappablamma@mastodon.world"
+      link: "https://mastodon.world/@zappablamma"
+    # - item : 
+    #   title: "twitter"
+    #   text: "@zappablamma"
+    #   link: "twitter.com"
+    - item : 
+      title: "instagram"
+      text: "@zbsketchbooks"
+      link: "https://www.instagram.com/zbsketchbooks/"
+    - item : 
+      title: "itch.io"
+      text: "zb.itch.io"
+      link: "https://zb.itch.io/"
+    - item : 
+      title: "itch.io"
+      text: "zb.itch.io"
+      link: "https://zb.itch.io/"
 
 # newsletter
 newsletter:
