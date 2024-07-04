@@ -52,8 +52,8 @@
                 
                 {{ range .Site.Data.homepage.contact.items }}
                 <div class="col-6 col-lg-6 contact__info">
-                    <h3>{{ .title }}</h3>
-                    <span><a href="{{.link}}">{{ .text }}</a></span>
+                    <h3>{{ .title | safeHTML }}</h3>
+                    <span><a href="{{.link | safeHTML}}">{{ .text }}</a></span>
                 </div>
                 {{ end }}
             </div>

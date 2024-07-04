@@ -1,7 +1,7 @@
 # page title
 head:
-  title: "Demo site for Adritian - a high performance hugo theme by Adrián Moreno"
-  description: "This hugo theme (Adritian) is based on Boostrap and has features that make it suitable for a personal site, a portfolio or other kind of Single Page Applications."
+  title: "John Tringham Portfolio"
+  description: "Portfolio of John Tringham - software developer from London, UK"
 # showcase
 showcase:
   enable: true
@@ -18,7 +18,7 @@ showcase:
   button:
     icon: "icon-mail-fill"
     btnText: "Contact"
-    URL: "https://www.adrianmoreno.info/"
+    URL: "#contact"
 
   socialLinks:
     # - icon: "blog"
@@ -64,8 +64,8 @@ about:
     </p>
   button:
     icon: "icon-smile-fill"
-    btnText: "About Me"
-    URL: "https://www.linkedin.com/in/adrianmoreno/"
+    btnText: "Tech blog"
+    URL: "https://blog.seedganggames.com"
   image:
     x: "images/showcase/trees.png"
     _2x: "images/showcase/trees.png"
@@ -182,8 +182,8 @@ client_and_work:
        Thumb Blocker Launcher is developed using Kotlin and Android Studio. It is currently in beta on Google Play.
       button:
         icon: "icon-arrow-right"
-        btnText: "Case Study"
-        URL: "#"
+        btnText: "Request beta access"
+        URL: "mailto:help@seedganggames.com?subject=Request Thumb Blocker beta access"
       image:
         x: "images/works/thumbblocker.png"
         _2x: "images/works/robo-advisor@2x.jpg"
@@ -204,7 +204,7 @@ client_and_work:
         URL: "https://blog.seedganggames.com/muuradio/"
       image:
         x: "img/kb4.png"
-        _2x: "images/works/radity-finance@2x.jpg"
+        _2x: "img/kb4.png"
       is_even: true
 
     - title: "Evaze"
@@ -214,25 +214,21 @@ client_and_work:
         Evaze is a casual puzzle-action mobile game. It can be downloaded for both Android and iOS.
       button:
         icon: "icon-arrow-right"
-        btnText: "Muuradio"
-        URL: "https://muuradio.com"
-      button2:
-        icon: "icon-arrow-right"
         btnText: "Blog post"
-        URL: "https://blog.seedganggames.com/muuradio/"
+        URL: "https://blog.seedganggames.com/evaze-released/"
       youtube: https://www.youtube.com/embed/V_kMEnoiYA4?si=5GXKDDP_mMTsNwcs
       is_even: false
 
     - title: "Dash Foss"
       description: >
-        I made a lightweight third party tumblr dashboard android application called "Dash Foss".
+        I made a lightweight open-source third party <a href="https://tumblr.com/">tumblr</a> dashboard cross-platform application called "Dash Foss".
         <br/>
-        It's written in C# using Xamarin, and uses the official tumblr API to show posts, videos, comments, etc. You can view your timeline, other people's blogs and posts you've liked.<br>
+        It's written in C# using Xamarin, and uses the official tumblr API to show posts, videos, comments, etc. You can view your timeline, other people's blogs, posts you've liked, and post replies.<br>
         It does not show ads, recommended posts, blazed posts, tipping, or other negative feaures built into the first party app.
       button:
         icon: "icon-arrow-right"
-        btnText: "More info"
-        URL: "#"
+        btnText: "Github repo"
+        URL: "https://github.com/johntringham/dashfoss"
       video: "videos/df.mp4"
       is_even: true
 
@@ -268,8 +264,8 @@ smaller_projects:
 
       button:
         icon: "icon-arrow-right"
-        btnText: "Case Study"
-        URL: "#"
+        btnText: "Play Two Player"
+        URL: "https://zb.itch.io/two-player"
       video: "videos/two_player.mp4"
       is_even: false
 
@@ -280,14 +276,22 @@ smaller_projects:
         These experiments have included grey-scott reaction diffusion techniques, "slime mould" rendering systems, and other novel methods.
       button:
         icon: "icon-arrow-right"
-        btnText: "Muuradio"
-        URL: "https://muuradio.com"
-      button2:
-        icon: "icon-arrow-right"
         btnText: "Blog post"
-        URL: "https://blog.seedganggames.com/muuradio/"
+        URL: "https://blog.seedganggames.com/Slime-sim/"
       video: "videos/trees.mp4"
       is_even: true
+
+    - title: "Artwork"
+      description: >
+        I've illustrated and drawn comics since being a teenager, normally using ink and watercolour paints. During university, I was a regular editorial cartoonist for the student newspaper.<br/>I occasionally upload the contents of my sketchbook to instagram
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Instagram"
+        URL: "https://www.instagram.com/zbsketchbooks/"
+      image:
+        x: "img/art/bort.png"
+        _2x: "img/art/bort.png"
+      is_even: false
 
 
 # testimonial
@@ -321,8 +325,8 @@ contact:
   items:
     - item : 
       title: "email"
-      text: "john at seedganggames dot com"
-      link: "mailto:&#106;&#111;&#104;&#110;&#064;&#115;&#101;&#101;&#100;&#103;&#097;&#110;&#103;&#103;&#097;&#109;&#101;&#115;&#046;&#099;&#111;&#109;"
+      text: "john@seedganggames.com"
+      link: "mailto:john@seedganggames.com"
     - item : 
       title: "blog"
       text: "blog.seedganggames.com"
@@ -339,10 +343,6 @@ contact:
       title: "instagram"
       text: "@zbsketchbooks"
       link: "https://www.instagram.com/zbsketchbooks/"
-    - item : 
-      title: "itch.io"
-      text: "zb.itch.io"
-      link: "https://zb.itch.io/"
     - item : 
       title: "itch.io"
       text: "zb.itch.io"
