@@ -54,11 +54,11 @@
 </noscript>
 {{ if .Site.Params.analytics.google_tag_manager.enabled }}
 <!-- Google tag (gtag.js), google analytics -->
-<script defer src="https://www.googletagmanager.com/gtag/js?id=UA-465407-4"></script>
+<!-- <script defer src="https://www.googletagmanager.com/gtag/js?id=UA-465407-4"></script> -->
 {{ $analytics := resources.Get "js/gtag.js" | resources.Minify }}
 <script defer src="{{ $analytics.Permalink }}"></script>
 {{ else }}
 <!-- no google tag displayed -->
 {{ end }}
-<script src='{{ "js/library/lozad.min.js" | absURL }}'></script>
+<script src='{{ "js/library/lozad.min.js" }}'></script>
 
