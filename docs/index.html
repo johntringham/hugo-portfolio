@@ -805,7 +805,13 @@ It's connected to a small 2D physics engine (using matter.js), which users can c
 <script defer src='https://john.seedganggames.com/js/sticky-header.js'></script>
 <script defer src='https://john.seedganggames.com/js/smooth-scroll-init.js'></script>
 <script defer src='https://john.seedganggames.com/js/library/bootstrap.min.js'></script>
-<script data-goatcounter="https://seedgang.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<script>
+  window.goatcounter = {
+      path: function(p) { return location.host + p }
+  }
+</script>
+<script data-goatcounter="https://seedgang.goatcounter.com/count"
+      async src="//gc.zgo.at/count.js"></script>
 </body>
 
 </html>
